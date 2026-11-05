@@ -4,7 +4,7 @@ import AllTask from './component/AllTask';
 import { useState } from 'react';
 function App() {
   const [deleteTask,setDeleteTask]=useState([]);
-  const [status,setStatus]=useState(false);
+  const [status,setStatus]=useState(false)
   return (
     <>
       <Header />
